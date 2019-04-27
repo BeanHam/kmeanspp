@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import numpy as np
 import pandas as pd
 import random
@@ -12,10 +6,6 @@ from sklearn.metrics import pairwise_distances
 
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
-
-
-# In[ ]:
-
 
 class Kmeanspp:
     """K-Means++ Clustering Algorithm"""
